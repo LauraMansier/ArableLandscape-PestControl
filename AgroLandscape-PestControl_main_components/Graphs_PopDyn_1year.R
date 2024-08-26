@@ -1,11 +1,13 @@
-setwd("~/GitHub/Hover_aphid_model/Figures")
+#Set working directory to the directory where you saved the model output and where the graphs will be saved
+setwd("")
 
-# data_frame_PopDyn = data.frame(timestep=out[,1], N1=out[,2], N2=out[,3], N3=out[,4], P0=out[,5], p1=out[,6], P1=out[,7], p2=out[,8], P2=out[,9], p3=out[,10], P3=out[,11], PD=out[,12])
-data_frames=readRDS("ModelRun_20years_final.RData")
+#Load the data frame created with the script AgroLandscape-PestControl script
+data_frames=readRDS("AgroLandscape-PestControl.RData")
+#Take a subset of one year
 data_frame_PopDyn_subset=subset(data_frames, timestep<210)
 
-
-pdf("BasicModel_PopDyn_Shubs_1year.pdf", width = 8)
+####Population dynamics in Shrubs over 1 year####
+pdf("PopDyn_Shrubs_1year.pdf", width = 8)
 par(mar=c(5.1,6.5,3,1.5))
 # #shrubs
 plot(data_frame_PopDyn_subset$timestep, data_frame_PopDyn_subset$N1,type="l", lwd=10, cex.axis = 2.5, cex.lab = 3, cex.main=2, 
@@ -43,7 +45,8 @@ legend("topright",legend=c(expression("Aphids"),
        col=c('#33a02c','#e31a1c','#fb9a99','#6a3d9a'), bg="white")
 dev.off()
 
-#  pdf("BasicModel_PopDyn_Dispersing.pdf", width = 15)
+####Population dynamics in of the dispersing adult hoverfly population over 1 year####
+#  pdf("PopDyn_Dispersing.pdf", width = 15)
 # par(mar=c(5.1,5.5,4.1,2.1))
 # #Dispersing
 # plot(data_frame_PopDyn_subset$timestep,data_frame_PopDyn_subset$PD,type="l", lwd=2, cex.axis = 2, cex.lab = 2, cex.main=2, 
@@ -52,7 +55,9 @@ dev.off()
 # abline(v=c(210, 420, 630, 840), col="black", lwd=2)
 #  dev.off()
 # 
-pdf("BasicModel_PopDyn_EarlyCrop_1year.pdf", width = 8)
+
+####Population dynamics in the early crop habitat over 1 year####
+pdf("PopDyn_EarlyCrop_1year.pdf", width = 8)
 par(mar=c(5.1,6.5,3,1.5))
 # #early crop
 plot(data_frame_PopDyn_subset$timestep, data_frame_PopDyn_subset$N2,type="l", lwd=10, cex.axis = 2.5, cex.lab = 3, cex.main=2,
@@ -90,8 +95,8 @@ text(195, 1e-02, "Oct", cex=2)
 #        cex=2, lty=1, lwd=10, col=c('#33a02c','#e31a1c','#fb9a99'), bg="white")
 dev.off()
 
-
-pdf("BasicModel_PopDyn_LateCrop_1year.pdf", width = 8)
+####Population dynamics in the late crop habitat over 1 year####
+pdf("PopDyn_LateCrop_1year.pdf", width = 8)
 par(mar=c(5.1,6.5,3,1.5))
 # #late crop
 plot(data_frame_PopDyn_subset$timestep, data_frame_PopDyn_subset$N3,type="l", lwd=10, cex.axis = 2.5, cex.lab = 3, cex.main=2, 
