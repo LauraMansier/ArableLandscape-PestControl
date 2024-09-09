@@ -1,9 +1,9 @@
-# AgroLandscape-PestControl
+# ArableLandscape-PestControl
 
 ![Model description](https://github.com/user-attachments/assets/20394839-a73e-4bcc-9e45-5a9dc866cf2f)
 
 ## Overview
-This repository contains the code for modeling the dynamics of pest-regulating hoverflies (*Diptera: Syrphinae*) and their aphid prey across various agricultural and non-crop habitats. The model simulates how different landscape compositions, including early-season crops, late-season crops, flower-rich field margins, and woody areas, affect the survival and effectiveness of hoverflies as natural pest control agents.
+This repository will contain the code for modeling the dynamics of pest-regulating hoverflies (*Diptera: Syrphinae*) and their aphid prey across various agricultural and non-crop habitats. The model simulates how different landscape compositions, including early-season crops, late-season crops, flower-rich field margins, and woody areas, affect the survival and effectiveness of hoverflies as natural pest control agents.
 For an in-depth model description, please check out our publication: 
 
 Mansier, L & van Rijn, P.C.J. (In press). Agricultural landscape management for natural pest control. *Journal of Applied Ecology*
@@ -18,19 +18,8 @@ Mansier, L & van Rijn, P.C.J. (In press). Agricultural landscape management for 
 - R
 - Package "DeSolve"
 
-### Installation
-1. Clone the repository:
-    ```bash
-    edit
-    ```
-2. Install and load the required R package
-   ```bash
-    edit
-    ```
-### Running the Model
-1. blabla runs the model with default parameter values; This will simulate the dynamics of hoverflies and their aphid prey based on the landscape composition defined in the main paper.
-2. see blabla file for the script with which we analysed the script
-
+## In preperation
+We are currently, working on getting this repository ready for use, please have some patience. 
 
 ## Citation
 If you use this model or data in your research, please cite our paper:
