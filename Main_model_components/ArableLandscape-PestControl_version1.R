@@ -368,8 +368,8 @@ parms=c(SA1=SA1, AA1=AA1, A2=A2, A3=A3, F1=F1, F2=F2, F3=F3, I2=I2, I3=I3, Ta=Ta
         b=b, a=a, da=da, db=db, Is2=Is2, Is3=Is3, sN=sN, sP=sP, Pi=Pi, N1i=N1i, N2i=N2i, N3i=N3i, T2i=T2i, T3i=T3i)
 
 #Years
-#Run with 20 years takes approximately 5 minutes to run
-years=20
+#Run with 24 years takes approximately 5 minutes to run
+years=24
 times=seq(0,210*years)
 
 #INITIAL CONDITIONS
