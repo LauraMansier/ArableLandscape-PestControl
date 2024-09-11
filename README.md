@@ -26,6 +26,8 @@ If you use this model or data in your research, please cite our paper:
 
 Mansier, L & van Rijn, P.C.J. (In press). Agricultural landscape management for natural pest control. *Journal of Applied Ecology*
 
+The first version on the model can also be found on [Zenodo}(https://zenodo.org/records/13736744)
+
 ## Contributors
 - **Laura Mansier** - Lead Author, Model Development - [lauramansier.github.io](https://lauramansier.github.io/)
 - **Paul C.J. van Rijn:** - Model Development - [Dr. P.C.J. van Rijn](https://www.uva.nl/en/profile/r/i/p.c.j.vanrijn/p.c.j.vanrijn.html)
@@ -33,9 +35,6 @@ Mansier, L & van Rijn, P.C.J. (In press). Agricultural landscape management for 
 ## Contribute
 If you find any issue/bug/proposal, open an issue and we will try to solve/discuss it.
 Pull requests are more than welcome. For major changes, please open an issue first to discuss what you would like to change. 
-
-## License
-Check this out, no clue yet
 
 ## Acknowledgments
 This research was supported by the [FRAMEwork H2020 project](https://www.framework-biodiversity.eu/) and conducted at [UvA Science Faculty](https://science.uva.nl/). You can find more information on sustainable agricultural practices at [Recodo](https://recodo.io/).
