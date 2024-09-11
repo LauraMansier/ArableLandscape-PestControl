@@ -4,7 +4,7 @@
 
 ## Overview
 This repository will contain the code for modeling the dynamics of pest-regulating hoverflies (*Diptera: Syrphinae*) and their aphid prey across various agricultural and non-crop habitats. The model simulates how different landscape compositions, including early-season crops, late-season crops, flower-rich field margins, and woody areas, affect the survival and effectiveness of hoverflies as natural pest control agents.
-For an in-depth model description, please check out our publication: 
+For an in-depth model description, please check out our publication and its supplementary material: 
 
 Mansier, L & van Rijn, P.C.J. (In press). Agricultural landscape management for natural pest control. *Journal of Applied Ecology*
 
